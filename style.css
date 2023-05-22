@@ -43,3 +43,47 @@ body {
     text-decoration: none;
     font-size: 18px;
 }
+
+.hero {
+    display: flex;
+    gap: 40px;
+    padding: 100px 0;
+}
+
+.hero-left, .hero-right {
+    flex: 1;
+}
+
+.hero-left {
+    align-self: center;
+}
+
+.hero-header {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-text {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.hero-btn {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 900;
+    padding: 6px 32px;
+    cursor: pointer;
+    margin-top: 16px;
+}
+
+.hero-img {
+    max-width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
