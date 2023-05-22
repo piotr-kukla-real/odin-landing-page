@@ -8,6 +8,9 @@
 
 body {
     font-family: Roboto, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .top-section {
@@ -194,4 +197,15 @@ body {
     padding: 6px 32px;
     cursor: pointer;
     align-self: center;
+}
+
+footer {
+    background-color: #1F2937;
+    padding: 36px 0;
+    text-align: center;
+    margin-top: auto;
+}
+
+.footer-text {
+    color: #E5E7EB;
 }
